@@ -1,0 +1,59 @@
+/* components/Nav.module.css */
+.nav {
+    display: flex;
+    background-color: #1C4670;
+    height:44px;
+    flex-direction: row-reverse;
+    padding:10px 10px 20px 10px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin: 0 1rem;
+  }
+  
+.nav li img{
+    width:25px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#E6ECFD;
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nav li {
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    padding: 0.5rem;
+  }
+
+  .nav li {
+    margin: 0.3rem 0;
+  }
+
+  .nav a {
+    font-size: 12px;
+  }
+
+  .nav img {
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,37 @@
+/* components/Header.module.css */
+.header{
+    background-color: #FFFFFF;
+    width:100%;
+    height:71.1px;
+}
+.header img{
+    width:300px;
+    height:50px;   
+}
+.header ul li{
+    display:inline-flex;
+    flex-direction: row;
+    padding:10px 10px 40px 10px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color:#272D37;
+}
+.cta-btn{
+    width:157px;
+    height:46px;
+    border:1px;
+    border-radius: 4px;
+    background-color: #FFA229;
+    color:#FFFFFF;
+    width: 157px;
+    height: 22px;
+    top: 12px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.79px;
+    letter-spacing: -0.3px;
+    text-align: center;
+}
